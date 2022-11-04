@@ -83,12 +83,12 @@ public class SinhVienAdapter extends RecyclerView.Adapter<SinhVienAdapter.DataVi
 
         public DataViewHolder(View itemView) {
             super(itemView);
-            imageView=(ImageView) itemView.findViewById(R.id.images);
-            Msv=(TextView) itemView.findViewById(R.id.MSV);
-            Tensv= (TextView)itemView.findViewById(R.id.TENSV);
-            Nam=(TextView)itemView.findViewById(R.id.Namhoc);
-            update=(ImageView) itemView.findViewById(R.id.update);
-            remove=(ImageView)itemView.findViewById(R.id.remove);
+            imageView=(ImageView) itemView.findViewById(R.id.images245);
+            Msv=(TextView) itemView.findViewById(R.id.MSV245);
+            Tensv= (TextView)itemView.findViewById(R.id.TENSV245);
+            Nam=(TextView)itemView.findViewById(R.id.Namhoc245);
+            update=(ImageView) itemView.findViewById(R.id.update245);
+            remove=(ImageView)itemView.findViewById(R.id.remove245);
         }
 
     }

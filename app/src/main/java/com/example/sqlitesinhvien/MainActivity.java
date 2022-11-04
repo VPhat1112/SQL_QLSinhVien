@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        btnThem=(Button)findViewById(R.id.btnThem);
+        btnThem=(Button)findViewById(R.id.btnThem245);
         //Tạo Database
         database = new Database(this,"Sinhvien.db",null,1);
         //Tạo table Sinhvien
@@ -91,11 +91,11 @@ public class MainActivity extends AppCompatActivity {
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         dialog.setContentView(R.layout.dialogcreatesv);
 
-        final EditText edtMaSV = (EditText) dialog.findViewById(R.id.edtaddMasv);
-        final EditText edtTenSV = (EditText) dialog.findViewById(R.id.edtaddTensv);
-        final EditText edtNamHoc = (EditText) dialog.findViewById(R.id.edtaddNamhoc);
-        Button btnThem = (Button) dialog.findViewById(R.id.LưuSV);
-        Button btnHuy = (Button) dialog.findViewById(R.id.btnHuy);
+        final EditText edtMaSV = (EditText) dialog.findViewById(R.id.edtaddMasv245);
+        final EditText edtTenSV = (EditText) dialog.findViewById(R.id.edtaddTensv245);
+        final EditText edtNamHoc = (EditText) dialog.findViewById(R.id.edtaddNamhoc245);
+        Button btnThem = (Button) dialog.findViewById(R.id.LưuSV245);
+        Button btnHuy = (Button) dialog.findViewById(R.id.btnHuy245);
 
         btnThem.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -126,10 +126,10 @@ public class MainActivity extends AppCompatActivity {
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         dialog.setContentView(R.layout.dialog_sua);
 
-        EditText edtenSV = (EditText) dialog.findViewById(R.id.edtTensv);
-        EditText edNam = (EditText) dialog.findViewById(R.id.edtNamhoc);
-        Button btnXacnhan = (Button) dialog.findViewById(R.id.btn_XacNhan_update);
-        Button btnHuy = (Button) dialog.findViewById(R.id.btn_Huy_update);
+        EditText edtenSV = (EditText) dialog.findViewById(R.id.edtTensv245);
+        EditText edNam = (EditText) dialog.findViewById(R.id.edtNamhoc245);
+        Button btnXacnhan = (Button) dialog.findViewById(R.id.btn_XacNhan_update245);
+        Button btnHuy = (Button) dialog.findViewById(R.id.btn_Huy_update245);
 
         edtenSV.setText(Tensv);
         edNam.setText(Nam);

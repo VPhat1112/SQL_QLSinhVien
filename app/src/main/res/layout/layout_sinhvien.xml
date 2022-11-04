@@ -4,58 +4,58 @@
     android:layout_height="wrap_content">
 
     <ImageView
-        android:id="@+id/images"
+        android:id="@+id/images245"
         android:layout_width="50dp"
         android:layout_height="50dp"
         ></ImageView>
 
     <TextView
-        android:id="@+id/MSV"
+        android:id="@+id/MSV245"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:layout_toEndOf="@+id/images"
+        android:layout_toEndOf="@+id/images245"
         android:text="Mã sinh viên"
         android:textSize="16dp"></TextView>
 
     <TextView
-        android:id="@+id/TENSV"
+        android:id="@+id/TENSV245"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/MSV"
+        android:layout_below="@+id/MSV245"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
-        android:layout_toEndOf="@+id/images"
+        android:layout_toEndOf="@+id/images245"
         android:text="Tên sinh viên"
         android:textSize="16dp"></TextView>
 
     <TextView
-        android:id="@+id/Namhoc"
+        android:id="@+id/Namhoc245"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/MSV"
+        android:layout_below="@id/MSV245"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
-        android:layout_toEndOf="@id/TENSV"
+        android:layout_toEndOf="@id/TENSV245"
         android:text="năm"
         android:textSize="16dp" />
 
     <ImageView
-        android:id="@+id/update"
+        android:id="@+id/update245"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="5dp"
-        android:layout_toEndOf="@id/Namhoc"
+        android:layout_toEndOf="@id/Namhoc245"
         android:background="@drawable/ic_baseline_update_24"></ImageView>
 
     <ImageView
-        android:id="@+id/remove"
+        android:id="@+id/remove245"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="5dp"
-        android:layout_toEndOf="@id/update"
+        android:layout_toEndOf="@id/update245"
         android:background="@drawable/ic_baseline_person_remove_24"></ImageView>
 
 </RelativeLayout>

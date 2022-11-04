@@ -6,7 +6,7 @@
     android:background="#F4F271">
 
     <TextView
-        android:id="@+id/TextSV"
+        android:id="@+id/TextSV245"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="70dp"
@@ -18,41 +18,41 @@
 
 
     <EditText
-        android:id="@+id/edtaddMasv"
+        android:id="@+id/edtaddMasv245"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/TextSV"
+        android:layout_below="@+id/TextSV245"
         android:hint="Nhập mã sinh viên" />
     <EditText
-        android:id="@+id/edtaddTensv"
+        android:id="@+id/edtaddTensv245"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/edtaddMasv"
+        android:layout_below="@+id/edtaddMasv245"
         android:hint="Nhập tên sinh viên" />
 
 
     <EditText
-        android:id="@+id/edtaddNamhoc"
+        android:id="@+id/edtaddNamhoc245"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/edtaddTensv"
+        android:layout_below="@+id/edtaddTensv245"
         android:layout_marginLeft="199dp"
         android:gravity="center"
         android:hint="Nhập năm học"/>
 
     <Button
-        android:id="@+id/btnHuy"
+        android:id="@+id/btnHuy245"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/edtaddNamhoc"
+        android:layout_below="@+id/edtaddNamhoc245"
         android:layout_marginLeft="190dp"
         android:text="Hủy" />
 
     <Button
-        android:id="@+id/LưuSV"
+        android:id="@+id/LưuSV245"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/edtaddNamhoc"
+        android:layout_below="@+id/edtaddNamhoc245"
         android:layout_marginLeft="79dp"
         android:text="Lưu" />
 </RelativeLayout>

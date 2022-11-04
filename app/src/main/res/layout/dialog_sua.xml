@@ -4,7 +4,7 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/text2"
+        android:id="@+id/text245"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -15,39 +15,39 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/edtTensv"
+        android:id="@+id/edtTensv245"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/text2"
+        android:layout_below="@+id/text245"
         android:hint=" Tên sinh viên" />
 
 
     <EditText
-        android:id="@+id/edtNamhoc"
+        android:id="@+id/edtNamhoc245"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/edtTensv"
+        android:layout_below="@+id/edtTensv245"
         android:layout_marginLeft="199dp"
         android:gravity="center"
         android:hint="Năm học" />
 
     <Button
-        android:id="@+id/btn_XacNhan_update"
+        android:id="@+id/btn_XacNhan_update245"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/edtNamhoc"
+        android:layout_below="@+id/edtNamhoc245"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="50dp"
         android:text="Xác Nhận" />
 
     <Button
-        android:id="@+id/btn_Huy_update"
+        android:id="@+id/btn_Huy_update245"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/edtNamhoc"
+        android:layout_below="@+id/edtNamhoc245"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="50dp"
-        android:layout_toRightOf="@+id/btn_XacNhan_update"
+        android:layout_toRightOf="@+id/btn_XacNhan_update245"
         android:text="Hủy" />
 
 </RelativeLayout>

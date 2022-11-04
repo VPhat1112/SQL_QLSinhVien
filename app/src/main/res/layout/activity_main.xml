@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
     <LinearLayout
-        android:id="@+id/layout_listview"
+        android:id="@+id/layout_listview245"
         android:layout_width="match_parent"
         android:layout_height="300dp">
         <androidx.recyclerview.widget.RecyclerView
@@ -16,12 +16,12 @@
         </androidx.recyclerview.widget.RecyclerView>
     </LinearLayout>
     <LinearLayout
-        android:layout_below="@+id/layout_listview"
+        android:layout_below="@+id/layout_listview245"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center">
         <Button
-            android:id="@+id/btnThem"
+            android:id="@+id/btnThem245"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Thêm"
