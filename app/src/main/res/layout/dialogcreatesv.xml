@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="#F4F271">
+
+    <TextView
+        android:id="@+id/TextSV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="THÊM SINH VIÊN"
+        android:textSize="25dp"
+        android:textStyle="bold"></TextView>
+
+
+    <EditText
+        android:id="@+id/edtaddMasv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextSV"
+        android:hint="Nhập mã sinh viên" />
+    <EditText
+        android:id="@+id/edtaddTensv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtaddMasv"
+        android:hint="Nhập tên sinh viên" />
+
+
+    <EditText
+        android:id="@+id/edtaddNamhoc"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtaddTensv"
+        android:layout_marginLeft="199dp"
+        android:gravity="center"
+        android:hint="Nhập năm học"/>
+
+    <Button
+        android:id="@+id/btnHuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtaddNamhoc"
+        android:layout_marginLeft="190dp"
+        android:text="Hủy" />
+
+    <Button
+        android:id="@+id/LưuSV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtaddNamhoc"
+        android:layout_marginLeft="79dp"
+        android:text="Lưu" />
+</RelativeLayout>

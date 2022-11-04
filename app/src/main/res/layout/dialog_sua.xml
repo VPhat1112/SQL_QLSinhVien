@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:text="Cập nhập Sinh Viên"
+        android:textColor="#FF00"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtTensv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text2"
+        android:hint=" Tên sinh viên" />
+
+
+    <EditText
+        android:id="@+id/edtNamhoc"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtTensv"
+        android:layout_marginLeft="199dp"
+        android:gravity="center"
+        android:hint="Năm học" />
+
+    <Button
+        android:id="@+id/btn_XacNhan_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtNamhoc"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Xác Nhận" />
+
+    <Button
+        android:id="@+id/btn_Huy_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtNamhoc"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@+id/btn_XacNhan_update"
+        android:text="Hủy" />
+
+</RelativeLayout>
